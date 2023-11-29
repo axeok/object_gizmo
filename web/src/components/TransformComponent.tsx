@@ -42,7 +42,7 @@ export const TransformComponent = () => {
     mesh.current.rotation.set(
       MathUtils.degToRad(entity.rotation.x),
       MathUtils.degToRad(entity.rotation.z),
-      MathUtils.degToRad(entity.rotation.y)
+      MathUtils.degToRad(-entity.rotation.y)
     );
   });
 
